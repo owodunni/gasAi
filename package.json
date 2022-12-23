@@ -1,0 +1,19 @@
+{
+  "name": "testcontainers-dind-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.9.4",
+    "web3": "^1.8.1"
+  }
+}
